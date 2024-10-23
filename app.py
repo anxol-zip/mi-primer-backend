@@ -1,10 +1,13 @@
-from flask import Flask
+from operator import index
+
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Mi primer backend"
+    return render_template('index.html')
+
 @app.route('/saludos')
 def saludos():
     return "Ke onda?"
