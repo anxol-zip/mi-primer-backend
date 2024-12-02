@@ -72,6 +72,10 @@ def frameworks():
 def backend():
     return render_template('pages/sub-page/backend/back-end.html')
 
+@app.route('/sub-page/render.html')
+def render():
+    return render_template('pages/sub-page/render.html')
+
 @app.route('/sub-page/flutterflow.html')
 def flutterflow():
     return render_template('pages/sub-page/flutterflow.html')
