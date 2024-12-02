@@ -12,9 +12,9 @@ def home():
 def homeX():
     return render_template('pages/index.html')
 
-@app.route('/sub-page/canva.html')
-def canva():
-    return render_template('pages/sub-page/canva.html')
+@app.route('/sub-page/stack_overflow.html')
+def stack_overflow():
+    return render_template('pages/sub-page/stack_overflow.html')
 
 @app.route('/sub-page/Web 1/index.html')
 def web1():
@@ -71,6 +71,18 @@ def frameworks():
 @app.route('/sub-page/back-end.html')
 def backend():
     return render_template('pages/sub-page/backend/back-end.html')
+
+@app.route('/sub-page/flutterflow.html')
+def flutterflow():
+    return render_template('pages/sub-page/flutterflow.html')
+
+@app.route('/sub-page/modeva.html')
+def modeva():
+    return render_template('pages/sub-page/modeva.html')
+
+@app.route('/sub-page/IA.html')
+def IA():
+    return render_template('pages/sub-page/IA.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
