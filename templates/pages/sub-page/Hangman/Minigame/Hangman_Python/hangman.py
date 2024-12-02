@@ -82,7 +82,7 @@ def jugar(palabras):
         print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
     else:
         print("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-        print(f"Game Over D:. La palabra era: {palabra}")
+        print("Game Over D:. La palabra era: {palabra}")
         print("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 
 # Función principal
